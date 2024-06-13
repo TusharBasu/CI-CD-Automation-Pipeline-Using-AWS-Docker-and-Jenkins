@@ -32,6 +32,8 @@ cat Dockerfile
 ````bash
 sudo docker build . -t todo-app
 ````
+https://github.com/TusharBasu/docker-deployment/assets/126240600/9d9261fd-87a3-4c0c-afb9-8f6fc1ad1c79
+
 
 
 
