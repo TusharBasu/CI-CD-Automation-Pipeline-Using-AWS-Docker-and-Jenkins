@@ -34,6 +34,14 @@ sudo docker build . -t todo-app
 ````
 https://github.com/TusharBasu/docker-deployment/assets/126240600/9d9261fd-87a3-4c0c-afb9-8f6fc1ad1c79
 
+# >Image build successful with specified image id.
+
+![image](https://github.com/TusharBasu/docker-deployment/assets/126240600/a517ef68-f577-4b57-ab4b-37297d420b89)
+
+# Finaly our appliation is deployed on Docker 
+
+![image](https://github.com/TusharBasu/docker-deployment/assets/126240600/cd6472d5-8f27-45c0-bc3e-bfaa70a7d423)
+
 
 
 
