@@ -66,6 +66,26 @@ sudo apt-get install jenkins
 
 ````
 
+***Run commands to strat the jenkins services and check status***
+
+````bash
+sudo systemctl start jenkins
+````
+
+```bash
+sudo systemctl status jenkins
+```
+
+![image](https://github.com/TusharBasu/Create-and-Run-CI-CD-Pipeline-Using-AWS-Docker-and-Jenkins/assets/126240600/f7e1bc04-2462-4c53-a429-2e080df37780)
+
+
+***Edit inbound rule and set 8080 port to access anywhere***
+![image](https://github.com/TusharBasu/Create-and-Run-CI-CD-Pipeline-Using-AWS-Docker-and-Jenkins/assets/126240600/378e8227-9d81-41f0-a9e2-089b4cb07181)
+
+
+# >Now we access jenkins and configure it from anywhere by using public ips
+
+![image](https://github.com/TusharBasu/Create-and-Run-CI-CD-Pipeline-Using-AWS-Docker-and-Jenkins/assets/126240600/839ee0f5-5a70-4aca-b047-939e06301818)
 
 
 
