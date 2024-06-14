@@ -1,4 +1,4 @@
-# docker-deployment
+# Step-1, Working with Docker and AWS.
 ## Make a project folder and clone an application to start working.
 
 ![Screenshot 2024-06-10 165935](https://github.com/TusharBasu/docker-deployment/assets/126240600/6058e08a-4078-4b24-a24a-e92af0aef3e4)
@@ -41,6 +41,32 @@ https://github.com/TusharBasu/docker-deployment/assets/126240600/9d9261fd-87a3-4
 # >>Finally our appliation is deployed on Docker<<
 
 ![image](https://github.com/TusharBasu/docker-deployment/assets/126240600/cd6472d5-8f27-45c0-bc3e-bfaa70a7d423)
+
+# Step-2, Installation of Jenkins and working with it. 
+***Prerequisites***
+````bash
+sudo apt update
+sudo apt install fontconfig openjdk-17-jre
+java -version
+````
+
+***Now Install Jenkins***
+
+````bash
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+
+echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+sudo apt-get update
+
+sudo apt-get install jenkins
+
+````
+
+
 
 
 
