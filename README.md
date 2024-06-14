@@ -87,7 +87,8 @@ sudo systemctl status jenkins
 
 ![image](https://github.com/TusharBasu/Create-and-Run-CI-CD-Pipeline-Using-AWS-Docker-and-Jenkins/assets/126240600/839ee0f5-5a70-4aca-b047-939e06301818)
 
-
+***We can also do same by using docker only***
+![image](https://github.com/TusharBasu/Create-and-Run-CI-CD-Pipeline-Using-AWS-Docker-and-Jenkins/assets/126240600/5fb7b2b1-e8d5-4fd6-adf5-5424f79cad81)
 
 
 
